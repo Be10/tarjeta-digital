@@ -30,12 +30,14 @@ function Home() {
 
         <div className="main-info-card">
 
+          <div className="info-card"> </div>
+
           <div className="info-card">
 
-            <div className="info-card-body">
+            <div className="info-card-body-1">
 
               <div className="social-element">
-                <a href="tel:915241745">
+                <a href="tel:915241745" style={{ textDecoration: 'none', color: 'black' }}>
                   <div className="social-image">
                     <img src="/social/phone.png" alt="Llamar"/>
                   </div>
@@ -46,43 +48,51 @@ function Home() {
               </div>
 
               <div className="social-element">
-                <div className="social-image">
-                  <img src="/social/whatsapp.png" alt="Whatsapp"/>
-                </div>
-                <div className="social-text">
-                  <p>Whatsapp</p>
-                </div>
+                <a href="https://api.whatsapp.com/send?phone=+51%20915241745&text=&source=&data=&app_absent=" style={{ textDecoration: 'none', color: 'black' }}>
+                  <div className="social-image">
+                    <img src="/social/whatsapp.png" alt="Whatsapp"/>
+                  </div>
+                  <div className="social-text">
+                    <p>Whatsapp</p>
+                  </div>
+                </a>
               </div>
 
               <div className="social-element">
-                <div className="social-image">
-                  <img src="/social/map.png" alt="Ubicación"/>
-                </div>
-                <div className="social-text">
-                  <p>Ubicación</p>
-                </div>
+                <a href="https://goo.gl/maps/99sX3bJUrQVbiSGL8" style={{ textDecoration: 'none', color: 'black' }}>
+                  <div className="social-image">
+                    <img src="/social/map.png" alt="Ubicación"/>
+                  </div>
+                  <div className="social-text">
+                    <p>Ubicación</p>
+                  </div>
+                </a>
               </div>
 
             </div>
 
-            <div className="info-card-body">
+            <div className="info-card-body-2">
 
               <div className="social-element">
-                <div className="social-image">
-                  <img src="/social/facebook.png" alt="Facebook"/>
-                </div>
-                <div className="social-text">
-                  <p>Facebook</p>
-                </div>
+                <a href="https://www.facebook.com/CMedFam" style={{ textDecoration: 'none', color: 'black' }}>
+                  <div className="social-image">
+                    <img src="/social/facebook.png" alt="Facebook"/>
+                  </div>
+                  <div className="social-text">
+                    <p>Facebook</p>
+                  </div>
+                </a>
               </div>
 
               <div className="social-element">
-                <div className="social-image">
-                  <img src="/social/instagram.png" alt="Instagram"/>
-                </div>
-                <div className="social-text">
-                  <p>Instagram</p>
-                </div>
+                <a href="https://www.instagram.com/consultoriomedicofamiliar_/" style={{ textDecoration: 'none', color: 'black' }}>
+                  <div className="social-image">
+                    <img src="/social/instagram.png" alt="Instagram"/>
+                  </div>
+                  <div className="social-text">
+                    <p>Instagram</p>
+                  </div>
+                </a>
               </div>
 
               <div className="social-element">
@@ -100,27 +110,47 @@ function Home() {
           
           <div className="info-card">
             <div className="info-card-title">
-              <h3>Info Card 2</h3>
-            </div>
-            <div className="info-card-body">
+
+              <div className="card">
+                <div className="card-title">
+                  <h3>FORMACIÓN ACADÉMICA</h3>
+                </div>
+                <div className="card-content">
+                  <p>Médico egresado de la Universidad Nacional de Trujillo y formado en el Hospital MINSA Chepén.</p>
+                </div>
+              </div>
+
+              <div className="card">
+                <div className="card-title">
+                  <h3>EXPERIENCIA LABORAL</h3>
+                </div>
+                <div className="card-content">
+                  <h4>Hospital MINSA Chepén</h4>
+                  <p>Médico en el área de Tuberculosis.</p>
+                  <h4>Consultorio Médico Familiar</h4>
+                  <p>Médico Cirujano.</p>
+                </div>
+              </div>
+
+              <div className="card">
+                <div className="card-title"></div>
+                  <h3>CONSULTORIO MÉDICO FAMILIAR</h3>
+                  <h4>Teléfono:</h4>
+                  <p>915241745</p>
+
+                  <h4>Dirección:</h4>
+                  <p>Cajamarca 213, Chepén 13871</p>
+
+                  <h4>Horario de Atención:</h4>
+                  <p>3:00 pm a 07:00 pm</p>
+                <div className="card-content"></div>
+              </div>
 
             </div>
           </div>
 
-        </div>
+          <div className="info-card"> </div>
 
-        <div className="video-card">
-            <div className="video-card-title">
-              <h3>Info Card 4</h3>
-            </div>
-            <div className="video-card-body">
-              <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Ad, molestias, officia eligendi delectus saepe temporibus nihil at distinctio vero a pariatur quia, 
-                unde eveniet aspernatur expedita consequuntur voluptatum reiciendis ex?</h2>
-              <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Ad, molestias, officia eligendi delectus saepe temporibus nihil at distinctio vero a pariatur quia, 
-                unde eveniet aspernatur expedita consequuntur voluptatum reiciendis ex?</h2>
-            </div>
         </div>
 
       </div>

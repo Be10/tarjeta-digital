@@ -72,8 +72,8 @@ img {
     display: grid;
     justify-content: space-around;
     align-items: center;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 60px;
     margin-bottom: 30px;
 }
 
@@ -81,14 +81,19 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
     padding: 20px;
-    border-radius: 5px;
-    background: #ffffff;
-    box-shadow: 5px 5px 20px 0.5px #0000003d, -5px -5px 20px 0.5px #0000003d;
 }
 
-.info-card-body {
+.info-card-body-1 {
+    margin-top: -80px;
+    padding: 10px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.info-card-body-2 {
     padding: 10px;
     display: grid;
     text-align: center;
@@ -109,6 +114,24 @@ img {
 
 .social-text {
     margin-top: 5px;
+    text-decoration: none;
+}
+
+.card {
+    align-items: center;
+    width: 350px;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+.card-content {
+    margin-top: 5px;
+}
+
+.card h4 {
+    margin-top: 5px;
 }
 
 .video-card {
@@ -117,9 +140,6 @@ img {
     justify-content: space-around;
     margin-top: 20px;
     padding: 20px;
-    border-radius: 5px;
-    background: #ffffff;
-    box-shadow: 5px 5px 20px 0.5px #0000003d, -5px -5px 20px 0.5px #0000003d;
 }
 
 @media only screen and (max-width: 1100px) {
