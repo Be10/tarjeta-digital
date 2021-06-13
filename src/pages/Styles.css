@@ -28,7 +28,7 @@ img {
 }
 
 .main-cover-content{
-    padding:10px;
+    padding: 10px;
     display: table;
     position: absolute;
     justify-content: center;
@@ -36,28 +36,28 @@ img {
 }
 
 .profile-picture {
-    margin-top: -50px;
+    margin-top: -55px;
 }
 
 .profile-picture img {
-    width: 180px;
+    width: 150px;
     border-radius: 100%;
     background-color: #fff;
 }
 
 .profile-title {
     position: absolute;
-    margin-top: 170px;
+    margin-top: 140px;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(75, 136, 130);
 }
 
 .profile-subtitle {
     position: absolute;
-    margin-top: 220px;
+    margin-top: 185px;
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(75, 136, 130);
     text-shadow: 1px 1px 4px rgba(42, 43, 54, 0.2);
 }
