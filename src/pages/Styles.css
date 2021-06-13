@@ -31,12 +31,13 @@ img {
     padding: 10px;
     display: table;
     position: absolute;
-    justify-content: center;
-    align-items: center;
 }
 
-.profile-picture {
-    margin-top: -55px;
+.cover-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 .profile-picture img {
@@ -45,17 +46,22 @@ img {
     background-color: #fff;
 }
 
+.cover-description {
+    display: table;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
 .profile-title {
-    position: absolute;
-    margin-top: 140px;
-    text-align: center;
+    justify-content: center;
+    text-align: center;    
     font-size: 18px;
     color: rgb(75, 136, 130);
 }
 
 .profile-subtitle {
-    position: absolute;
-    margin-top: 185px;
+    justify-content: center;
     text-align: center;
     font-size: 14px;
     color: rgb(75, 136, 130);
@@ -65,7 +71,7 @@ img {
 .main-content{
     justify-content: center;
     align-items: center;
-    padding: 25px 25px;
+    padding: 25px;
 }
 
 .main-info-card {
@@ -74,18 +80,15 @@ img {
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 60px;
-    margin-bottom: 30px;
 }
 
 .info-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
 }
 
 .info-card-body-1 {
-    margin-top: -80px;
     padding: 10px;
     display: grid;
     text-align: center;
@@ -120,6 +123,7 @@ img {
 .card {
     align-items: center;
     width: 350px;
+    padding: 20px;
 }
 
 .card-title {

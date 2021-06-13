@@ -12,16 +12,20 @@ function Home() {
         </div>
 
         <div className="main-cover-content">
-          <div className="profile-picture">
-            <img src="/home/juan_quiroz.png" alt="Dr. Juan Quiroz"/>
+          <div className="cover-content">
+            <div className="profile-picture">
+              <img src="/home/juan_quiroz.png" alt="Dr. Juan Quiroz"/>
+            </div>
           </div>
-        </div>
 
-        <div className="profile-title">
-          <p>Dr. Juan Eduardo Quiroz</p>
-        </div>
-        <div className="profile-subtitle">
-          <p>MÉDICO CIRUJANO</p>
+          <div className="cover-description">
+            <div className="profile-title">
+              <p>Dr. Juan Eduardo Quiroz</p>
+            </div>
+            <div className="profile-subtitle">
+              <p>MÉDICO CIRUJANO</p>
+            </div>
+          </div>
         </div>
         
       </div>
