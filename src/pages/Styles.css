@@ -28,6 +28,7 @@ img {
 }
 
 .main-cover-content{
+    padding:10px;
     display: table;
     position: absolute;
     justify-content: center;
