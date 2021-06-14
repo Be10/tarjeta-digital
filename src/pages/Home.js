@@ -123,9 +123,9 @@ function Home() {
                   <p>Pregrado en Universidad Nacional de Trujillo</p>
                   <p>Diplomado en Auditoría Médica</p>
                   <p>Certificados en Pediatría, Radiología, Infectología, Electrocardiografía y Emergencias Hospitalarias</p>
-                  <p>Diplomado en Curso en Manejo Racional de COVID-19</p>
-                  <p>Investigador en COVID-19</p>
-                  <p>Autor principal de la Guía de Recomendaciones de Manejo de COVID-19 en pacientes ambulatorios y hospitalizados (2021)</p>
+                  <p>Diplomado en Curso en Manejo Racional de <b>COVID-19</b></p>
+                  <p>Investigador en <b>COVID-19</b></p>
+                  <p>Autor principal de la Guía de Recomendaciones de Manejo de <b>COVID-19</b> en pacientes ambulatorios y hospitalizados (2021)</p>
                 </div>
               </div>
 
@@ -168,12 +168,12 @@ function Home() {
           <div className="info-card-1"></div>
 
         </div>
+      </div>
 
-        <div className="map-card">
-          <div className="map-content">
-          </div>
+      <div className="map-content">
+        <div className="map">
+          <img src="/home/Map.png" alt="Mapa"/>
         </div>
-
       </div>
     </main>
   );
