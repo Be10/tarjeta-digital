@@ -34,11 +34,11 @@ function Home() {
 
         <div className="main-info-card">
 
-          <div className="info-card"> </div>
+          <div className="info-card-1"></div>
 
-          <div className="info-card">
+          <div className="info-card-1">
 
-            <div className="info-card-body-1">
+            <div className="info-card-body-left">
 
               <div className="social-element">
                 <a href="tel:915241745" style={{ textDecoration: 'none', color: 'black' }}>
@@ -75,7 +75,7 @@ function Home() {
 
             </div>
 
-            <div className="info-card-body-2">
+            <div className="info-card-body-left">
 
               <div className="social-element">
                 <a href="https://www.facebook.com/CMedFam" style={{ textDecoration: 'none', color: 'black' }}>
@@ -112,17 +112,28 @@ function Home() {
 
           </div>
           
-          <div className="info-card">
-            <div className="info-card-title">
-
+          <div className="info-card-2">
+            <div className="info-card-body-middle">
+              
               <div className="card">
                 <div className="card-title">
                   <h3>FORMACIÓN ACADÉMICA</h3>
                 </div>
                 <div className="card-content">
-                  <p>Médico egresado de la Universidad Nacional de Trujillo y formado en el Hospital MINSA Chepén.</p>
+                  <p>Pregrado en Universidad Nacional de Trujillo</p>
+                  <p>Diplomado en Auditoría Médica</p>
+                  <p>Certificados en Pediatría, Radiología, Infectología, Electrocardiografía y Emergencias Hospitalarias</p>
+                  <p>Diplomado en Curso en Manejo Racional de COVID-19</p>
+                  <p>Investigador en COVID-19</p>
+                  <p>Autor principal de la Guía de Recomendaciones de Manejo de COVID-19 en pacientes ambulatorios y hospitalizados (2021)</p>
                 </div>
               </div>
+
+            </div>
+          </div>
+
+          <div className="info-card-2">
+            <div className="info-card-body-right">
 
               <div className="card">
                 <div className="card-title">
@@ -130,31 +141,37 @@ function Home() {
                 </div>
                 <div className="card-content">
                   <h4>Hospital MINSA Chepén</h4>
-                  <p>Médico en el área de Tuberculosis.</p>
                   <h4>Consultorio Médico Familiar</h4>
-                  <p>Médico Cirujano.</p>
+                  <h4>Médico Asistente</h4>
                 </div>
               </div>
 
               <div className="card">
-                <div className="card-title"></div>
+                <div className="card-title">
                   <h3>CONSULTORIO MÉDICO FAMILIAR</h3>
+                </div>
+                <div className="card-content">
                   <h4>Teléfono:</h4>
                   <p>915241745</p>
 
                   <h4>Dirección:</h4>
-                  <p>Cajamarca 213, Chepén 13871</p>
+                  <p>Calle Cajamarca 213</p>
 
                   <h4>Horario de Atención:</h4>
-                  <p>3:00 pm a 07:00 pm</p>
-                <div className="card-content"></div>
+                  <p>3:00 pm a 05:30 pm</p>
+                </div>
               </div>
-
+              
             </div>
           </div>
 
-          <div className="info-card"> </div>
+          <div className="info-card-1"></div>
 
+        </div>
+
+        <div className="map-card">
+          <div className="map-content">
+          </div>
         </div>
 
       </div>
