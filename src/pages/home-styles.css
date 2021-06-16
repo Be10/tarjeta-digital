@@ -1,13 +1,25 @@
 main {
     grid-area: main;
     overflow-y: auto;
-    background: rgb(250, 250, 250);
+    background: #ffffff;
 }
 
 h1, h2, h3 {
     color: rgb(75, 136, 130);
     font-weight: lighter;
 }
+
+/* Loader Styles */
+
+.Home {
+    display: flex;
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Main Styles */
 
 img {
     justify-content: center;
