@@ -1,5 +1,5 @@
 import React from 'react';
-import './Styles.css';
+import './home-styles.css';
 
 function Home() {
 
@@ -14,7 +14,9 @@ function Home() {
         <div className="main-cover-content">
           <div className="cover-content">
             <div className="profile-picture">
-              <img src="/home/juan_quiroz.png" alt="Dr. Juan Quiroz"/>
+              <a href="https://www.facebook.com/CMedFam" target="_blank" rel="noreferrer">
+                <img src="/home/juan_quiroz.png" alt="Dr. Juan Quiroz"/>
+              </a>
             </div>
           </div>
 
@@ -34,11 +36,11 @@ function Home() {
 
         <div className="main-info-card">
 
-          <div className="info-card-1"></div>
+          <div className="info-card"></div>
 
           <div className="info-card-1">
 
-            <div className="info-card-body-left">
+            <div className="info-card-body-left-1">
 
               <div className="social-element">
                 <a href="tel:915241745" style={{ textDecoration: 'none', color: 'black' }}>
@@ -52,7 +54,7 @@ function Home() {
               </div>
 
               <div className="social-element">
-                <a href="https://api.whatsapp.com/send?phone=+51%20915241745&text=&source=&data=&app_absent=" style={{ textDecoration: 'none', color: 'black' }}>
+                <a href="https://api.whatsapp.com/send?phone=+51%20915241745&text=&source=&data=&app_absent=" style={{ textDecoration: 'none', color: 'black' }} target="_blank" rel="noreferrer">
                   <div className="social-image">
                     <img src="/social/whatsapp.png" alt="Whatsapp"/>
                   </div>
@@ -63,7 +65,7 @@ function Home() {
               </div>
 
               <div className="social-element">
-                <a href="https://goo.gl/maps/99sX3bJUrQVbiSGL8" style={{ textDecoration: 'none', color: 'black' }}>
+                <a href="https://goo.gl/maps/99sX3bJUrQVbiSGL8" style={{ textDecoration: 'none', color: 'black' }} target="_blank" rel="noreferrer">
                   <div className="social-image">
                     <img src="/social/map.png" alt="Ubicación"/>
                   </div>
@@ -75,10 +77,10 @@ function Home() {
 
             </div>
 
-            <div className="info-card-body-left">
+            <div className="info-card-body-left-2">
 
               <div className="social-element">
-                <a href="https://www.facebook.com/CMedFam" style={{ textDecoration: 'none', color: 'black' }}>
+                <a href="https://www.facebook.com/CMedFam" style={{ textDecoration: 'none', color: 'black' }} target="_blank" rel="noreferrer">
                   <div className="social-image">
                     <img src="/social/facebook.png" alt="Facebook"/>
                   </div>
@@ -89,7 +91,7 @@ function Home() {
               </div>
 
               <div className="social-element">
-                <a href="https://www.instagram.com/consultoriomedicofamiliar_/" style={{ textDecoration: 'none', color: 'black' }}>
+                <a href="https://www.instagram.com/consultoriomedicofamiliar_/" style={{ textDecoration: 'none', color: 'black' }} target="_blank" rel="noreferrer">
                   <div className="social-image">
                     <img src="/social/instagram.png" alt="Instagram"/>
                   </div>
@@ -110,14 +112,22 @@ function Home() {
 
             </div>
 
+            <div className="info-card-body-left-feed">
+              <a href="/Feed" style={{ textDecoration: 'none', color: 'white' }}>
+                <div className="feed-card">
+                  <p>Publicaciones Recientes</p>
+                </div>
+              </a>
+            </div>
+
           </div>
           
           <div className="info-card-2">
-            <div className="info-card-body-middle">
+            <div className="info-card-body-middleright">
               
               <div className="card">
                 <div className="card-title">
-                  <h3>FORMACIÓN ACADÉMICA</h3>
+                  <h3><b> FORMACIÓN ACADÉMICA </b></h3>
                 </div>
                 <div className="card-content">
                   <p>Pregrado en Universidad Nacional de Trujillo</p>
@@ -133,11 +143,11 @@ function Home() {
           </div>
 
           <div className="info-card-2">
-            <div className="info-card-body-right">
+            <div className="info-card-body-middleright">
 
               <div className="card">
                 <div className="card-title">
-                  <h3>EXPERIENCIA LABORAL</h3>
+                  <h3><b> EXPERIENCIA LABORAL </b></h3>
                 </div>
                 <div className="card-content">
                   <h4>Hospital MINSA Chepén</h4>
@@ -148,7 +158,7 @@ function Home() {
 
               <div className="card">
                 <div className="card-title">
-                  <h3>CONSULTORIO MÉDICO FAMILIAR</h3>
+                  <h3><b> CONSULTORIO MÉDICO FAMILIAR </b></h3>
                 </div>
                 <div className="card-content">
                   <h4>Teléfono:</h4>
@@ -165,7 +175,7 @@ function Home() {
             </div>
           </div>
 
-          <div className="info-card-1"></div>
+          <div className="info-card"></div>
 
         </div>
       </div>
