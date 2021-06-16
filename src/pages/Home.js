@@ -36,7 +36,7 @@ function Home() {
             <div className="main-cover-content">
               <div className="cover-content">
                 <div className="profile-picture">
-                  <a href="https://www.facebook.com/CMedFam" target="_blank" rel="noreferrer">
+                  <a href="fb://facewebmodal/CMedFam" target="_blank" rel="noreferrer">
                     <img src="/home/juan_quiroz.png" alt="Dr. Juan Quiroz"/>
                   </a>
                 </div>
