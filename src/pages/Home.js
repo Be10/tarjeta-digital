@@ -10,7 +10,7 @@ function Home() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 2000)
+    }, 1800)
   }, []) 
 
   return (
@@ -35,7 +35,12 @@ function Home() {
 
             <div className="main-cover-content">
               <div className="cover-content">
-                <div className="profile-picture">
+                <div id="content-desktop" className="profile-picture">
+                  <a href="https://www.facebook.com/CMedFam" target="_blank" rel="noreferrer">
+                    <img src="/home/juan_quiroz.png" alt="Dr. Juan Quiroz"/>
+                  </a>
+                </div>
+                <div id="content-mobile" className="profile-picture">
                   <a href="fb://page/1687496474653212" target="_blank" rel="noreferrer">
                     <img src="/home/juan_quiroz.png" alt="Dr. Juan Quiroz"/>
                   </a>
@@ -101,8 +106,19 @@ function Home() {
 
                 <div className="info-card-body-left-2">
 
-                  <div className="social-element">
+                  <div id="content-desktop" className="social-element">
                     <a href="https://www.facebook.com/CMedFam" style={{ textDecoration: 'none', color: 'black' }} target="_blank" rel="noreferrer">
+                      <div className="social-image">
+                        <img src="/social/facebook.png" alt="Facebook"/>
+                      </div>
+                      <div className="social-text">
+                        <p>Facebook</p>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div id="content-mobile" className="social-element">
+                    <a href="fb://page/1687496474653212" style={{ textDecoration: 'none', color: 'black' }} target="_blank" rel="noreferrer">
                       <div className="social-image">
                         <img src="/social/facebook.png" alt="Facebook"/>
                       </div>

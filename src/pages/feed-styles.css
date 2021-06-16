@@ -2,7 +2,7 @@ main {
     grid-area: main;
     overflow-y: auto;
     width: 100%;
-    background: rgb(243, 243, 243);
+    background: #FFFFFF;
 }
 
 h1, h2, h3 {
@@ -81,7 +81,7 @@ h1, h2, h3 {
     height: 10px;
 }
 .slides::-webkit-scrollbar-thumb {
-    background: #0808082c;
+    background: #08080810;
     border-radius: 10px;
 }
 .slides::-webkit-scrollbar-track {
@@ -95,7 +95,7 @@ h1, h2, h3 {
     height: 100%;
     margin-right: 50px;
     border-radius: 10px;
-    background: #F3F3F3;
+    background: #FFFFFF;
 
     transform-origin: center center;
     transform: scale(1);
@@ -134,7 +134,7 @@ h1, h2, h3 {
     height: 1.5rem;
     background: #D2EDE8;
     text-decoration: none;
-    color: rgb(75, 136, 130);
+    color: #64b1a9;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
@@ -181,4 +181,21 @@ h1, h2, h3 {
     max-width: 500px;
     text-align: left;
     font-size: 15px;
+}
+
+.post-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn-content {
+    width: 120px;
+    padding: 4px;
+    color: #64b1a9;
+    background: #D2EDE8;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 0.5px #7777771c, -1px -1px 10px 0.5px #7777771c;
 }
