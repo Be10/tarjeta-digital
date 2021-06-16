@@ -41,7 +41,7 @@ function Home() {
                   </a>
                 </div>
                 <div id="content-mobile" className="profile-picture">
-                  <a href="fb://page/1687496474653212" target="_blank" rel="noreferrer">
+                  <a href="fb://page/1687496474653212">
                     <img src="/home/juan_quiroz.png" alt="Dr. Juan Quiroz"/>
                   </a>
                 </div>
@@ -118,7 +118,7 @@ function Home() {
                   </div>
 
                   <div id="content-mobile" className="social-element">
-                    <a href="fb://page/1687496474653212" style={{ textDecoration: 'none', color: 'black' }} target="_blank" rel="noreferrer">
+                    <a href="fb://page/1687496474653212" style={{ textDecoration: 'none', color: 'black' }}>
                       <div className="social-image">
                         <img src="/social/facebook.png" alt="Facebook"/>
                       </div>

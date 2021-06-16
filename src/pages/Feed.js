@@ -61,7 +61,7 @@ function Feed2() {
                                     </a>
                                 </div>
                                 <div id="content-mobile" className="btn-content">
-                                    <a href="fb://page/1687496474653212" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>
+                                    <a href="fb://page/1687496474653212" style={{ textDecoration: 'none', color: 'white' }}>
                                         <h3>Leer Más</h3>
                                     </a>
                                 </div>
@@ -88,7 +88,7 @@ function Feed2() {
                                     </a>
                                 </div>
                                 <div id="content-mobile" className="btn-content">
-                                    <a href="fb://page/1687496474653212" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>
+                                    <a href="fb://page/1687496474653212" style={{ textDecoration: 'none', color: 'white' }}>
                                         <h3>Leer Más</h3>
                                     </a>
                                 </div>
@@ -121,7 +121,7 @@ function Feed2() {
                                     </a>
                                 </div>
                                 <div id="content-mobile" className="btn-content">
-                                    <a href="fb://page/1687496474653212" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>
+                                    <a href="fb://page/1687496474653212" style={{ textDecoration: 'none', color: 'white' }}>
                                         <h3>Leer Más</h3>
                                     </a>
                                 </div>
