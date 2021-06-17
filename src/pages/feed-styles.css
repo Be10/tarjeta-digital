@@ -141,9 +141,13 @@ h1, h2, h3 {
     margin: 0 0 0.5rem 0;
     position: relative;
 }
-.slider-numbers > a:active {
+
+.slider-numbers > a:checked {
     top: 2px;
+    background: #bcdad4;
+    box-shadow: 1px 1px 10px 0.5px #7777771c, -1px -1px 10px 0.5px #7777771c;
 }
+
 .slider-numbers > a:hover {
     background: #bcdad4;
 }
