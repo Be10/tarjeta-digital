@@ -124,14 +124,14 @@ img {
     height: 70px;
     display: flex;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 50%;
     background-color: #ffffff;
     box-shadow: 1px 1px 10px 0.5px #7777771c, -1px -1px 10px 0.5px #7777771c;
 }
 
 .social-image img {
-    -webkit-filter: drop-shadow(2px 2px 2px rgba(34, 34, 34, 0.226));
-    filter: drop-shadow(2px 2px 2px rgba(34, 34, 34, 0.226));
+    -webkit-filter: drop-shadow(1px 1px 1px rgba(34, 34, 34, 0.226));
+    filter:  drop-shadow(1px 1px 1px rgba(34, 34, 34, 0.226));
 }
 
 .social-image:hover {
