@@ -10,7 +10,7 @@ function Home() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 1800)
+    }, 2000)
   }, []) 
 
   return (
@@ -86,7 +86,7 @@ function Home() {
                         <img src="/social/whatsapp.png" alt="Whatsapp"/>
                       </div>
                       <div className="social-text">
-                        <p>Whatsapp</p>
+                        <p>WhatsApp</p>
                       </div>
                     </a>
                   </div>
