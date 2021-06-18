@@ -108,48 +108,46 @@ h1, h2, h3 {
     align-content: center;
     font-size: 100px;
 }
-  
-.author-info {
-    background: rgba(0, 0, 0, 0.75);
-    color: white;
-    padding: 0.75rem;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    margin: 0;
-}
-.author-info a {
-    color: white;
-}
 
-.slider-numbers {
-    margin-bottom: 10px;
-}
-  
-.slider-numbers > a {
-    display: inline-flex;
-    width: 1.5rem;
-    height: 1.5rem;
-    background: #D2EDE8;
-    text-decoration: none;
-    color: #64b1a9;
-    align-items: center;
+.slider-advice {
+    display: flex;
     justify-content: center;
-    border-radius: 50%;
-    margin: 0 0 0.5rem 0;
+}
+.slide-to-right {
+    padding: 5px;
+    border-radius: 10px;
+    color: #4B8882;
+    background: #D2EDE8;
     position: relative;
+    animation: mymove 2s infinite;
 }
 
-.slider-numbers > a:checked {
-    top: 2px;
-    background: #bcdad4;
-    box-shadow: 1px 1px 10px 0.5px #7777771c, -1px -1px 10px 0.5px #7777771c;
+#hideMe {
+    -moz-animation: cssAnimation 0s ease-in 5.5s forwards;
+    -webkit-animation: cssAnimation 0s ease-in 5.5s forwards;
+    -o-animation: cssAnimation 0s ease-in 5.5s forwards;
+    animation: cssAnimation 0s ease-in 5.5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
 }
-
-.slider-numbers > a:hover {
-    background: #bcdad4;
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+@keyframes mymove {
+    from {left: -50px;}
+    to {left: 50px;}
 }
 
 .slide {
@@ -181,7 +179,8 @@ h1, h2, h3 {
     justify-content: center;
     flex-direction: column;
 }
-.post-text p {
+
+.post-text blockquote {
     max-width: 500px;
     text-align: left;
     font-size: 15px;
