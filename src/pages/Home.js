@@ -140,12 +140,14 @@ function Home() {
                   </div>
 
                   <div className="social-element">
-                    <div className="social-image">
-                      <img src="/social/gmail.png" alt="Correo"/>
-                    </div>
-                    <div className="social-text">
-                      <p>Correo</p>
-                    </div>
+                    <a href="/Form" style={{ textDecoration: 'none', color: 'white' }}>
+                      <div className="social-image">
+                        <img src="/social/gmail.png" alt="Correo"/>
+                      </div>
+                      <div className="social-text">
+                        <p>Correo</p>
+                      </div>
+                    </a>
                   </div>
 
                 </div>

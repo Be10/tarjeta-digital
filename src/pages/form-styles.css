@@ -1,15 +1,21 @@
-.container{
+.navbar {
+    width: 100%;
+    text-align: center;
+}
+
+.container {
     grid-area: main;
     overflow-y: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 105vh;
+    height: 95vh;
     background-color: #e6f3f1;
 }
 
-.form{
+.form {
     width: 95%;
     max-width: 400px;
     margin:0 auto;
@@ -25,26 +31,26 @@
     color: rgb(75, 136, 130);
 }
 
-.form-group{
+.form-group {
     width: 100%;
     margin-top: 20px;
     font-size: 18px;
 }
 
 .form-group input,
-.form-group textarea{
+.form-group textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid rgba(128, 128, 128, 0.199);
     margin-top: 5px;
 }
 
-textarea{
+textarea {
     resize: vertical;
     height: 80px;
 }
 
-button[type="submit"]{
+button[type="submit"] {
     width: 100%;
     border: none;
     outline: none;
@@ -59,13 +65,13 @@ button[type="submit"]{
     margin-top: 10px;
 }
 
-button[type="submit"]:hover{
+button[type="submit"]:hover {
     background-color: rgb(214, 226, 236);
 }
 
-#status{
-    width: 90%;
-    max-width: 500px;
+#status {
+    width: 95%;
+    max-width: 400px;
     text-align: center;
     padding: 10px;
     border-radius: 8px;
@@ -73,19 +79,19 @@ button[type="submit"]:hover{
     pointer-events: none;
 }
 
-#status.success{
-    background-color: rgb(211, 250, 153);
-    color: rgb(75, 136, 130);
-    animation: status 4s ease  forwards;
+#status.success {
+    background-color: #abe4d9;
+    color: #4B8882;
+    animation: status 3s ease  forwards;
 }
 
-#status.error{
-    background-color: rgb(250, 129, 92);
-    color: rgb(252, 252, 252);
-    animation: status 4s ease  forwards;
+#status.error {
+    background-color: #dd9b9b;
+    color: #fdfdfd;
+    animation: status 3s ease  forwards;
 }
 
-@keyframes status{
+@keyframes status {
     0%{
         opacity: 1;
         pointer-events: all;
