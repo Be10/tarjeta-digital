@@ -9,12 +9,12 @@ window.addEventListener("DOMContentLoaded", function () {
     function success() {
       form.reset();
       status.classList.add('success');
-      status.innerHTML = "Thanks!";
+      status.innerHTML = "¡Mensaje enviado!";
     }
   
     function error() {
       status.classList.add('error');
-      status.innerHTML = "Oops! There was a problem.";
+      status.innerHTML = "Hubo un error...";
     }
 
     if(form){
@@ -59,6 +59,7 @@ function Form() {
         </div>
 
         <div class="container">
+            <div id="content-desktop" className="blank"></div>
             <div className="form">
                 <form action="https://formspree.io/f/xgerybrj" id="CMedFam" method="POST">
 

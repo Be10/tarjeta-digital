@@ -142,7 +142,7 @@ function Home() {
                   <div className="social-element">
                     <a href="/Form" style={{ textDecoration: 'none', color: 'white' }}>
                       <div className="social-image">
-                        <img src="/social/gmail.png" alt="Correo"/>
+                        <img src="/social/outlook.png" alt="Correo"/>
                       </div>
                       <div className="social-text">
                         <p>Correo</p>
